@@ -285,7 +285,8 @@
         "standard": "afc5d8",
         "dark": "95ADC2",
         "pink": "F22952",
-        "blue": "2C837F"
+        "blue": "2C837F",
+        "pastel": "D7EDFF"
       },
       "vscc": 42,
       "iscc": 7
@@ -339,7 +340,8 @@
         "standard": "fc9c23",
         "dark": "DB7745",
         "pink": "C44263",
-        "blue": "58AEC4"
+        "blue": "58AEC4",
+        "pastel": "F1A445"
       },
       "vscc": 56,
       "iscc": 14
