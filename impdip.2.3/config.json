@@ -35,12 +35,13 @@
 
     "default_sea_color": "d4dae1",
 
+	"color_options": ["standard", "dark", "pink", "blue", "pastel"],
     "color replacements": {
       "c6b7ab": { "dark": "B7AB80", "blue": "FFF3F3" },
       "b2bdd1": { "dark": "325B68", "blue": "D2BDAE", "pastel": "76A3D5" },
       "b99a82": { "dark": "8a836b", "blue": "EFDFDF" },
       "333333": { "dark": "0A3542" },
-      "d4dae1": { "dark": "396B70", "blue": "E4D1C5", "pastel": "638E36" }
+      "d4dae1": { "dark": "396B70", "blue": "E4D1C5", "pastel": "638Ec6" }
     },
 
     "border_margin_hint": 1,
@@ -66,6 +67,18 @@
   },
   "overrides": {
     "provinces": {
+      "Aden": {
+		"adjacencies": ["Aussa"]
+      },
+      "Aussa": {
+		"adjacencies": ["Aden"]
+      },
+      "Naskapi": {
+		"adjacencies": ["St. Anthony"]
+      },
+      "St. Anthony": {
+		"adjacencies": ["Naskapi"]
+      },
       "Panama": {
         "coasts": {
           "nc": ["Bay of Panama", "Honduras nc", "Cartagena"],
