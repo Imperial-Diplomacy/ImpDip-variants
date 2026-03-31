@@ -2,61 +2,14 @@
     "name": "Imperial Diplomacy B1.2: World Chaos",
     "file": "worldchaos.svg",
     "svg config": {
-        "land_layer": "layer6",
-        "island_ring_layer": "layer9",
-        "island_fill_layer": "layer11",
-        "island_borders": "layer5",
-        "sea_borders": "layer2",
-        "province_names": "layer1",
-        "supply_center_icons": "layer3",
-        "season": "layer4",
-        "power_banners": "layer13",
-        "starting_units": "layer10",
-        "unit_output": "layer16",
-        "arrow_output": "layer17",
-		"other_fills": "layer14",
-		"background": "g407997",
-        "coast_markers": "layer20",
-        "sidebar": "g13158",
-
-
-        "army": "g652",
-        "retreat_army": "g2176",
-        "fleet": "layer15",
         "retreat_fleet": "g3300",
-
-        "detect_starting_units": true,
-        "unit_type_labeled": false,
 
 	    "power_sc_index": 4,
 	    "power_iscc_index": -1,
 	    "power_vscc_index": -1,
 
-        "unit_labels": true,
-        "province_labels": true,
-        "center_labels": true,
-
-        "default_sea_color": "d4dae1",
-
-		"color replacements": {
-			"c6b7ab": {"dark": "B7AB80"},
-			"b2bdd1": {"dark": "325B68"},
-			"b99a82": {"dark": "8a836b"},
-			"333333": {"dark": "0A3542"},
-			"d4dae1": {"dark": "396B70"}
-		},
-
         "border_margin_hint": 1,
-        "year": 1641,
-
-        "map_width": 4375,
-        "unit_radius": 10,
-        "order_stroke_width": 2,
-        "neutral": {"standard": "c6b7ab", "dark": "B7AB80", "pink": "c6b7ab", "blue": "c6b7ab"},
-        "neutral_sc": "ffffff",
-        "loc_x_offset": 7.7655,
-        "loc_y_offset": 7.033,
-        "delete_layer": ["army", "retreat_army", "fleet", "retreat_fleet"]
+        "year": 1641
     },
 	"victory_conditions": "vscc",
     "build_options": "anywhere",
@@ -230,38 +183,6 @@
 						"Naples"
                     ]
                 }
-            },
-            "NPO1": {
-                "unit_loc": [[3982.726, 874.217]],
-                "retreat_unit_loc": [[3994.726, 886.217]]
-            },
-            "NPO2": {
-                "unit_loc": [[4059.726, 874.217]],
-                "retreat_unit_loc": [[4071.726, 886.217]]
-            },
-            "NPO3": {
-                "unit_loc": [[4136.726, 874.217]],
-                "retreat_unit_loc": [[4148.726, 886.217]]
-            },
-            "NPO4": {
-                "unit_loc": [[4021.226, 942.459]],
-                "retreat_unit_loc": [[4033.226, 954.459]]
-            },
-            "NPO5": {
-                "unit_loc": [[4098.226, 942.401]],
-                "retreat_unit_loc": [[4110.226, 954.401]]
-            },
-            "SPO1": {
-                "unit_loc": [[4061.260, 1509.495]],
-                "retreat_unit_loc": [[4073.260, 1521.495]]
-            },
-            "SPO2": {
-                "unit_loc": [[4138.259, 1509.495]],
-                "retreat_unit_loc": [[4150.259, 1521.495]]
-            },
-            "SPO3": {
-                "unit_loc": [[4215.260, 1510.000]],
-                "retreat_unit_loc": [[4227.260, 1522.000]]
             },
             "Chukchi Sea": {
                 "unit_loc": [[28.000, 241.000]],
