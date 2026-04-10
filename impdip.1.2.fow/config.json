@@ -50,6 +50,7 @@
 
         "fow": true
     },
+    "fow": "enabled",
     "build_options": "cores",
 	"victory_conditions": "vscc",
     "overrides": {
