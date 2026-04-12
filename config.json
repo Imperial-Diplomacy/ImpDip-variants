@@ -1,28 +1,6 @@
 {
   "svg config": {
-    "land_layer": "layer6",
-    "island_ring_layer": "layer9",
-    "island_fill_layer": "layer11",
-    "island_borders": "layer5",
-    "sea_borders": "layer2",
-    "province_names": "layer1",
-    "supply_center_icons": "layer3",
-    "season": "layer4",
-    "starting_units": "layer10",
-    "unit_output": "layer16",
-    "arrow_output": "layer17",
-    "other_fills": "layer14",
-    "coast_markers": "layer18",
-    "background": "g407997",
-    "sidebar": "layer7",
-
-    "power_banners": "layer13",
     "power_sc_index": 5,
-
-    "army": "g652",
-    "retreat_army": "g2176",
-    "fleet": "layer15",
-    "retreat_fleet": "g3300-9",
 
     "detect_starting_units": true,
     "unit_type_labeled": false,
@@ -32,9 +10,8 @@
     "center_labels": true,
 
     "default_sea_color": "d4dae1",
-    "year": 1642,
 
-	  "color_options": ["standard", "dark", "pink", "blue", "pastel"],
+	"color_options": ["standard", "dark", "pink", "blue", "pastel"],
     "color replacements": {
       "c6b7ab": { "dark": "B7AB80", "blue": "FFF3F3" },
       "b2bdd1": { "dark": "325B68", "blue": "D2BDAE", "pastel": "76A3D5" },
@@ -53,6 +30,12 @@
       "dark": "B7AB80",
       "pink": "c6b7ab",
       "blue": "FFF3F3"
+    },
+    "impassable": {
+      "standard": "333333",
+      "dark": "0A3542",
+      "pink": "333333",
+      "blue": "333333"
     },
     "neutral_sc": "ffffff",
     "loc_x_offset": 7.7655,
