@@ -94,7 +94,8 @@
         "pastel": "A88F80"
       },
       "vscc": 32,
-      "iscc": 4
+      "iscc": 4,
+      "capital": "Gondar"
     },
     "Ajuuraan": {
       "color": {
@@ -105,7 +106,8 @@
         "pastel": "7EA0C9"
       },
       "vscc": 36,
-      "iscc": 5
+      "iscc": 5,
+      "capital": "Mareeg"
     },
     "Athapasca": {
       "color": {
@@ -116,7 +118,8 @@
         "pastel": "FF99C2"
       },
       "vscc": 32,
-      "iscc": 4
+      "iscc": 4,
+      "capital": "Chipewyan"
     },
     "Austria": {
       "color": {
@@ -127,7 +130,8 @@
         "pastel": "C79775"
       },
       "vscc": 32,
-      "iscc": 4
+      "iscc": 4,
+      "capital": "Vienna"
     },
     "Aymara": {
       "color": {
@@ -138,7 +142,8 @@
         "pastel": "DD4479"
       },
       "vscc": 32,
-      "iscc": 4
+      "iscc": 4,
+      "capital": "Chuyma"
     },
     "Ayutthaya": {
       "color": {
@@ -149,7 +154,8 @@
         "pastel": "B697CD"
       },
       "vscc": 32,
-      "iscc": 4
+      "iscc": 4,
+      "capital": "Ayutthaya"
     },
     "England": {
       "color": {
@@ -160,7 +166,8 @@
         "pastel": "FF654E"
       },
       "vscc": 56,
-      "iscc": 14
+      "iscc": 14,
+      "capital": "London"
     },
     "France": {
       "color": {
@@ -171,7 +178,8 @@
         "pastel": "A4D0FF"
       },
       "vscc": 56,
-      "iscc": 14
+      "iscc": 14,
+      "capital": "Paris"
     },
     "Guarani": {
       "color": {
@@ -182,7 +190,8 @@
         "pastel": "4FBFC7"
       },
       "vscc": 32,
-      "iscc": 4
+      "iscc": 4,
+      "capital": "Chiripa"
     },
     "Inuit": {
       "color": {
@@ -193,7 +202,8 @@
         "pastel": "D7EDFF"
       },
       "vscc": 42,
-      "iscc": 7
+      "iscc": 7,
+      "capital": "Iqaluit"
     },
     "Kongo": {
       "color": {
@@ -204,7 +214,8 @@
         "pastel": "DE9CFF"
       },
       "vscc": 32,
-      "iscc": 4
+      "iscc": 4,
+      "capital": "Mbanza"
     },
     "Mapuche": {
       "color": {
@@ -215,7 +226,8 @@
         "pastel": "A4A6AB"
       },
       "vscc": 32,
-      "iscc": 4
+      "iscc": 4,
+      "capital": "Tucapel"
     },
     "Ming": {
       "color": {
@@ -226,7 +238,8 @@
         "pastel": "DBEC96"
       },
       "vscc": 36,
-      "iscc": 5
+      "iscc": 5,
+      "capital": "Peking"
     },
     "Mughal": {
       "color": {
@@ -237,7 +250,8 @@
         "pastel": "BC5A84"
       },
       "vscc": 40,
-      "iscc": 6
+      "iscc": 6,
+      "capital": "Delhi"
     },
     "Netherlands": {
       "color": {
@@ -248,7 +262,8 @@
         "pastel": "F1A445"
       },
       "vscc": 56,
-      "iscc": 14
+      "iscc": 14,
+      "capital": "Amsterdam"
     },
     "Ottoman": {
       "color": {
@@ -259,7 +274,8 @@
         "pastel": "DC6464"
       },
       "vscc": 48,
-      "iscc": 10
+      "iscc": 10,
+      "capital": "Constantinople"
     },
     "Poland-Lithuania": {
       "color": {
@@ -270,7 +286,8 @@
         "pastel": "FFB6CB"
       },
       "vscc": 42,
-      "iscc": 7
+      "iscc": 7,
+      "capital": "Warsaw"
     },
     "Portugal": {
       "color": {
@@ -281,7 +298,8 @@
         "pastel": "68DE86"
       },
       "vscc": 64,
-      "iscc": 16
+      "iscc": 16,
+      "capital": "Lisbon"
     },
     "Qing": {
       "color": {
@@ -292,7 +310,8 @@
         "pastel": "FFA2A9"
       },
       "vscc": 32,
-      "iscc": 4
+      "iscc": 4,
+      "capital": "Shengjing"
     },
     "Russia": {
       "color": {
@@ -303,7 +322,8 @@
         "pastel": "9BBB99"
       },
       "vscc": 44,
-      "iscc": 8
+      "iscc": 8,
+      "capital": "Moscow"
     },
     "Safavid": {
       "color": {
@@ -314,7 +334,8 @@
         "pastel": "A4C3BD"
       },
       "vscc": 36,
-      "iscc": 5
+      "iscc": 5,
+      "capital": "Isfahan"
     },
     "Spain": {
       "color": {
@@ -325,7 +346,8 @@
         "pastel": "FFE279"
       },
       "vscc": 64,
-      "iscc": 16
+      "iscc": 16,
+      "capital": "Madrid"
     },
     "Sweden": {
       "color": {
@@ -336,7 +358,8 @@
         "pastel": "8083E6"
       },
       "vscc": 32,
-      "iscc": 4
+      "iscc": 4,
+      "capital": "Stockholm"
     },
     "Tokugawa": {
       "color": {
@@ -347,7 +370,8 @@
         "pastel": "A4F8E2"
       },
       "vscc": 32,
-      "iscc": 4
+      "iscc": 4,
+      "capital": "Kyoto"
     },
     "Ute-Shoshone": {
       "color": {
@@ -358,7 +382,8 @@
         "pastel": "E1A891"
       },
       "vscc": 36,
-      "iscc": 5
+      "iscc": 5,
+      "capital": "Gosiute"
     }
   }
 }
