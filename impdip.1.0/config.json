@@ -211,6 +211,9 @@
             "vscc": 32,
             "iscc": 4
         },
+        "Guarani": {
+            "disabled": "True"
+        },
         "Inuit": {
             "vscc": 36,
             "iscc": 5
@@ -222,6 +225,9 @@
             "color": "7a9025",
             "vscc": 32,
             "iscc": 4
+        },
+        "Mapuche": {
+            "disabled": "True"
         },
         "Mapuche-Tehuelche": {
             "color": "81889d",
