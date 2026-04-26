@@ -50,6 +50,12 @@
   },
   "overrides": {
     "provinces": {
+      "Kathiri": {
+        "remove_adjacent_coasts": ["Sanaa"]
+      },
+      "Sanaa": {
+        "remove_adjacent_coasts": ["Kathiri"]
+      },
       "NPO1": {
         "unit_loc": [[3982.726, 874.217]],
         "retreat_unit_loc": [[3994.726, 886.217]]
