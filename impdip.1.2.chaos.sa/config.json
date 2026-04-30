@@ -2,29 +2,16 @@
     "name": "Imperial Diplomacy B1.2: South American Chaos",
     "file": "worldchaos_sa.svg",
     "svg config": {
-        "land_layer": "layer6",
-        "island_ring_layer": "layer9",
-        "island_fill_layer": "layer11",
-        "island_borders": "layer5",
-        "sea_borders": "layer2",
-        "province_names": "layer1",
-        "supply_center_icons": "layer3",
-        "season": "layer4",
-        "power_banners": "layer13",
-        "starting_units": "layer10",
-        "unit_output": "layer16",
-        "arrow_output": "layer17",
-		"other_fills": "layer14",
-		"background": "g407997",
-
-        "army": "g652",
-        "retreat_army": "g2176",
-        "fleet": "layer15",
-        "retreat_fleet": "g3300",
+        "scoreboard": {
+            "sort": true,
+            "indexes": {
+                "1": "__name__",
+                "4": "__score__"
+            }
+        },
 
         "detect_starting_units": true,
         "unit_type_labeled": false,
-
 
         "unit_labels": true,
         "province_labels": true,

@@ -2,12 +2,13 @@
     "name": "Imperial Diplomacy B1.2: World Chaos",
     "file": "worldchaos.svg",
     "svg config": {
-        "retreat_fleet": "g3300",
-
-	    "power_sc_index": 4,
-	    "power_iscc_index": -1,
-	    "power_vscc_index": -1,
-
+        "scoreboard": {
+            "sort": true,
+            "indexes": {
+                "1": "__name__",
+                "4": "__score__"
+            }
+        },
         "border_margin_hint": 1,
         "year": 1641
     },

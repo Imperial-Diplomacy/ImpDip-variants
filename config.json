@@ -1,6 +1,14 @@
 {
   "svg config": {
-    "power_sc_index": 5,
+    "scoreboard": {
+      "sort": true,
+      "indexes": {
+          "1": "__name__",
+          "5": "__score__",
+          "6": "__iscc__",
+          "7": "__vscc__"
+      }
+    },
 
     "detect_starting_units": true,
     "unit_type_labeled": false,
