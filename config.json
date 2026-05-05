@@ -105,7 +105,8 @@
         "dark": "9D6767",
         "pink": "FFC0CB",
         "blue": "4AB5A9",
-        "pastel": "A88F80"
+        "pastel": "A88F80",
+		"orange": "BB897C"
       },
       "vscc": 32,
       "iscc": 4,
@@ -117,7 +118,8 @@
         "dark": "4A688D",
         "pink": "FF6AB9",
         "blue": "924EEF",
-        "pastel": "7EA0C9"
+        "pastel": "7EA0C9",
+		"orange": "E14300"
       },
       "vscc": 36,
       "iscc": 5,
@@ -129,7 +131,8 @@
         "dark": "BB4C79",
         "pink": "FF69B4",
         "blue": "63E8DD",
-        "pastel": "FF99C2"
+        "pastel": "FF99C2",
+		"orange": "FA7D00"
       },
       "vscc": 32,
       "iscc": 4,
@@ -141,7 +144,8 @@
         "dark": "82644D",
         "pink": "FF1493",
         "blue": "8768E2",
-        "pastel": "C79775"
+        "pastel": "C79775",
+		"orange": "D17417"
       },
       "vscc": 32,
       "iscc": 4,
@@ -153,7 +157,8 @@
         "dark": "AD295D",
         "pink": "DB7093",
         "blue": "A0DCD9",
-        "pastel": "DD4479"
+        "pastel": "DD4479",
+		"orange": "A94420"
       },
       "vscc": 32,
       "iscc": 4,
@@ -165,7 +170,8 @@
         "dark": "B875CE",
         "pink": "FF007F",
         "blue": "5782EC",
-        "pastel": "B697CD"
+        "pastel": "B697CD",
+		"orange": "FF7E4C"
       },
       "vscc": 32,
       "iscc": 4,
@@ -177,7 +183,8 @@
         "dark": "E33544",
         "pink": "E75480",
         "blue": "467A70",
-        "pastel": "FF654E"
+        "pastel": "FF654E",
+		"orange": "E1582A"
       },
       "vscc": 56,
       "iscc": 14,
@@ -189,7 +196,8 @@
         "dark": "24A57B",
         "pink": "FF6FFF",
         "blue": "9F79CF",
-        "pastel": "A4D0FF"
+        "pastel": "A4D0FF",
+		"orange": "E5A76E"
       },
       "vscc": 56,
       "iscc": 14,
@@ -201,7 +209,8 @@
         "dark": "078690",
         "pink": "FFB3C6",
         "blue": "078690",
-        "pastel": "4FBFC7"
+        "pastel": "4FBFC7",
+		"orange": "EB3C19"
       },
       "vscc": 32,
       "iscc": 4,
@@ -213,7 +222,8 @@
         "dark": "95ADC2",
         "pink": "F22952",
         "blue": "2C837F",
-        "pastel": "D7EDFF"
+        "pastel": "D7EDFF",
+		"orange": "A78649"
       },
       "vscc": 42,
       "iscc": 7,
@@ -225,7 +235,8 @@
         "dark": "944FA5",
         "pink": "FF91A4",
         "blue": "C7A9E7",
-        "pastel": "DE9CFF"
+        "pastel": "DE9CFF",
+		"orange": "FA7100"
       },
       "vscc": 32,
       "iscc": 4,
@@ -237,7 +248,8 @@
         "dark": "696E7F",
         "pink": "FF85A1",
         "blue": "5A72C2",
-        "pastel": "A4A6AB"
+        "pastel": "A4A6AB",
+		"orange": "B7694D"
       },
       "vscc": 32,
       "iscc": 4,
@@ -249,7 +261,8 @@
         "dark": "B8DC5C",
         "pink": "D98A96",
         "blue": "74D2EF",
-        "pastel": "DBEC96"
+        "pastel": "DBEC96",
+		"orange": "FFC6A3"
       },
       "vscc": 36,
       "iscc": 5,
@@ -261,7 +274,8 @@
         "dark": "999941",
         "pink": "FDD7E4",
         "blue": "8779AB",
-        "pastel": "BC5A84"
+        "pastel": "BC5A84",
+		"orange": "9D6B32"
       },
       "vscc": 40,
       "iscc": 6,
@@ -273,7 +287,8 @@
         "dark": "DB7745",
         "pink": "C44263",
         "blue": "58AEC4",
-        "pastel": "F1A445"
+        "pastel": "F1A445",
+		"orange": "FC9C23"
       },
       "vscc": 56,
       "iscc": 14,
@@ -285,7 +300,8 @@
         "dark": "AB2136",
         "pink": "F4A7B9",
         "blue": "649AE8",
-        "pastel": "DC6464"
+        "pastel": "DC6464",
+		"orange": "A4451A"
       },
       "vscc": 48,
       "iscc": 10,
@@ -297,7 +313,8 @@
         "dark": "E57BA8",
         "pink": "F9A7B0",
         "blue": "43859F",
-        "pastel": "FFB6CB"
+        "pastel": "FFB6CB",
+		"orange": "E08A6E"
       },
       "vscc": 42,
       "iscc": 7,
@@ -309,7 +326,8 @@
         "dark": "23763F",
         "pink": "F5B7C6",
         "blue": "A9B6E3",
-        "pastel": "68DE86"
+        "pastel": "68DE86",
+		"orange": "E6AE4D"
       },
       "vscc": 64,
       "iscc": 16,
@@ -321,7 +339,8 @@
         "dark": "E04A5D",
         "pink": "F5A9BC",
         "blue": "15729C",
-        "pastel": "FFA2A9"
+        "pastel": "FFA2A9",
+		"orange": "9F4232"
       },
       "vscc": 32,
       "iscc": 4,
@@ -333,7 +352,8 @@
         "dark": "547352",
         "pink": "E672A3",
         "blue": "4BAADB",
-        "pastel": "9BBB99"
+        "pastel": "9BBB99",
+		"orange": "A75B28"
       },
       "vscc": 44,
       "iscc": 8,
@@ -345,7 +365,8 @@
         "dark": "407167",
         "pink": "FFAEB9",
         "blue": "5E6C9B",
-        "pastel": "A4C3BD"
+        "pastel": "A4C3BD",
+		"orange": "F38E66"
       },
       "vscc": 36,
       "iscc": 5,
@@ -357,7 +378,8 @@
         "dark": "DBB045",
         "pink": "65000B",
         "blue": "3585B0",
-        "pastel": "FFE279"
+        "pastel": "FFE279",
+		"orange": "EC874D"
       },
       "vscc": 64,
       "iscc": 16,
@@ -369,7 +391,8 @@
         "dark": "534884",
         "pink": "F497BF",
         "blue": "367BBB",
-        "pastel": "8083E6"
+        "pastel": "8083E6",
+		"orange": "D89518"
       },
       "vscc": 32,
       "iscc": 4,
@@ -381,7 +404,8 @@
         "dark": "4AB79B",
         "pink": "FFAACC",
         "blue": "687F9F",
-        "pastel": "A4F8E2"
+        "pastel": "A4F8E2",
+		"orange": "E29C63"
       },
       "vscc": 32,
       "iscc": 4,
@@ -393,7 +417,8 @@
         "dark": "B87052",
         "pink": "EDBFC3",
         "blue": "658DBE",
-        "pastel": "E1A891"
+        "pastel": "E1A891",
+		"orange": "CA7A59"
       },
       "vscc": 36,
       "iscc": 5,
