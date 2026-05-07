@@ -53,39 +53,8 @@
     "fow": "enabled",
     "build_options": "cores",
 	"victory_conditions": "vscc",
+    "expected_loops": 5,
     "overrides": {
-        "high provinces": {
-            "NAO": {
-                "num": 5,
-                "type": "SEA",
-                "adjacencies": ["SAO1", "SAO2", "SAO3", "SAO4", "SAO5", "Brattahlid", "Tunumiisut", "Greenland Sea", "Rockall Rise", "Iberian Current", "Azores", "Madeira Plain", "Canary Basin", "Leeward Sea", "Sargasso Sea", "Bermuda", "Massachusetts Bay", "St. Marguerite Baie", "Strait of Belle Isle", "Labrador Sea", "Frederikshaab"]
-            },
-            "SAO": {
-                "num": 5,
-                "type": "SEA",
-                "adjacencies": ["NAO1", "NAO2", "NAO3", "NAO4", "NAO5", "SPO1", "SPO2", "SPO3", "Leeward Sea", "Guiana Current", "St. Marcos Bay", "Mauritsstad", "Todos os Santos Bay", "Guanabara Bay", "Rio Grande Rise", "Argentine Basin", "Bahia Grande", "Southern Sea", "Cape Khoe", "Cape Basin", "St. Helena", "Angola Basin", "Gold Coast", "Manden", "Serra Leoa Rise", "Seewarte Seamounts", "Canary Basin"]
-            },
-            "NPO": {
-                "num": 5,
-                "type": "SEA",
-                "adjacencies": ["SPO1", "SPO2", "SPO3", "Peru Basin", "Galapagos", "Guatemala Basin", "Berlanga Ridge", "Hawai'i", "North Equatorial Current", "Chukchi Sea", "Karaginskiy Gulf", "Koryaks", "Kuril Sea", "Tsugaru Strait", "Edo", "Kuroshio Current", "Philippine Sea", "Halmahera Sea", "Solomon Islands"]
-            },
-            "SPO": {
-                "num": 3,
-                "type": "SEA",
-                "adjacencies": ["NPO1", "NPO2", "NPO3", "NPO4", "NPO5", "SAO1", "SAO2", "SAO3", "SAO4", "SAO5", "Solomon Islands", "Coral Sea", "Wurruk", "Antarctic Basin", "Aotearoa", "Bahia Grande", "Mar de Hoces", "Chiloe", "Roggeveen Basin", "Peru Basin", "Kawesqar"]
-            },
-            "INO": {
-                "num": 5,
-                "type": "SEA",
-                "adjacencies": ["New Holland", "Timor Sea", "Mentawai Strait", "Sumatra", "Cocos Basin", "Gulf of Ceylon", "Ceylon", "Gulf of Mannar", "Maldives", "Laccadive Plateau", "Somali Basin", "Seychelles Sea", "Mascarene Sea", "Reunion", "Crozet Basin", "Antarctic Basin", "Great Australian Bight"]
-            },
-            "SIB": {
-                "num": 3,
-                "type": "LAND",
-                "adjacencies": ["Verkhoturye", "Yamalia", "Taymyr", "Yenisei", "Krasnoyarsk", "Zaisan", "Balkhash", "Turkestan", "Alimuly"]
-            }
-        },
         "provinces": {
             "Iqaluit": {
                 "adjacencies": ["Nunavut"]

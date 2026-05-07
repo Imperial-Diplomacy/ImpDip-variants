@@ -1,6 +1,7 @@
 {
   "name": "Imperial Diplomacy B2.3",
   "file": "impdip.2.3.svg",
+  "expected_loops": 4,
   "overrides": {
     "provinces": {
       "Aden": {
@@ -8,6 +9,18 @@
       },
       "Aussa": {
         "adjacencies": ["Aden"]
+      },
+      "Azores": {
+        "adjacencies": ["Rockall Rise"]
+      },
+      "Rockall Rise": {
+        "adjacencies": ["Azores"]
+      },
+      "Iqaluit": {
+        "adjacencies": ["Nunavut"]
+      },
+      "Nunavut": {
+        "adjacencies": ["Iqaluit"]
       },
       "Naskapi": {
         "adjacencies": ["St. Anthony"]

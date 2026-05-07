@@ -45,18 +45,6 @@
     "flags": ["weak channel checking"],
 
     "overrides": {
-        "high provinces": {
-            "SAO": {
-                "num": 5,
-                "type": "SEA",
-                "adjacencies": ["SPO1", "SPO2", "SPO3", "Guiana Current", "St. Marcos Bay", "Mauritsstad", "Todos os Santos Bay", "Guanabara Bay", "Rio Grande Rise", "Argentine Basin", "Bahia Grande"]
-            },
-            "SPO": {
-                "num": 3,
-                "type": "SEA",
-                "adjacencies": ["SAO1", "SAO2", "SAO3", "SAO4", "SAO5", "Bahia Grande", "Mar de Hoces", "Chiloe", "Roggeveen Basin", "Peru Basin", "Kawesqar"]
-            }
-        },
         "provinces": {
             "Panama": {
                 "coasts": {

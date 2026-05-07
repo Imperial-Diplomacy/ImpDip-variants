@@ -1,37 +1,8 @@
 {
     "name": "Imperial Diplomacy B1.1",
     "file": "impdip.1.1.svg",
-    "svg config": {
-        "retreat_fleet": "g3300"
-    },
+    "expected_loops": 4,
     "overrides": {
-        "high provinces": {
-            "NAO": {
-                "num": 5,
-                "type": "SEA",
-                "adjacencies": ["Robertstorg", "Brattahlid", "Greenland Sea", "Rockall Rise", "Iberian Current", "Seewarte Seamounts", "SAO1", "SAO2", "SAO3", "SAO4", "SAO5", "Sargasso Sea", "Bermuda", "Massachusetts Bay", "St. Marguerite Baie", "Strait of Belle Isle", "Labrador Sea", "Azores"]
-            },
-            "SAO": {
-                "num": 5,
-                "type": "SEA",
-                "adjacencies": ["NAO1", "NAO2", "NAO3", "NAO4", "NAO5", "Seewarte Seamounts", "Serra Leoa Rise", "Manden", "Gold Coast", "Guinea Rise", "Angola Basin", "St. Helena", "Cape Basin", "Cape Khoe", "Southern Sea", "Argentine Basin", "Guanabara Bay", "Todos os Santos Bay", "Mauritsstad", "St. Marcos Bay", "Guiana Current", "Sargasso Sea"]
-            },
-            "NPO": {
-                "num": 5,
-                "type": "SEA",
-                "adjacencies": ["SPO1", "SPO2", "SPO3", "SPO4", "SPO5", "Solomon Islands", "Halmahera Sea", "Philippine Sea", "Kuroshio Current", "Edo", "Tsugaru Strait", "Kuril Sea", "Sea of Okhotsk", "Koryaks", "Chukchi Sea", "North Equatorial Current", "Hawai'i", "Berlanga Ridge", "Guatemala Basin"]
-            },
-            "SPO": {
-                "num": 5,
-                "type": "SEA",
-                "adjacencies": ["NPO1", "NPO2", "NPO3", "NPO4", "NPO5", "Guatemala Basin", "Galapagos", "Colon Ridge", "Trujillo", "Peru Basin", "Nazca Ridge", "Roggeveen Basin", "Chiloe", "Mar de Hoces", "Antarctic Basin", "Aotearoa", "Wurruk", "Coral Sea", "Solomon Islands"]
-            },
-            "INO": {
-                "num": 5,
-                "type": "SEA",
-                "adjacencies": ["Somali Basin", "Laccadive Plateau", "Maldives", "Gulf of Mannar", "Ceylon", "Gulf of Ceylon", "Cocos Basin", "Sumatra", "Mentawai Strait", "Timor Sea", "New Holland", "Great Australian Bight", "Antarctic Basin", "Crozet Basin", "Reunion", "Mascarene Sea", "Seychelles Sea"]
-            }
-        },
         "provinces": {
             "Iqaluit": {
                 "adjacencies": ["Nunavut"]
@@ -46,9 +17,9 @@
                 "adjacencies": ["Yokuts"]
             },
             "Edinburgh": {
-                "remove_adjacencies": ["Greenland Sea"]
+                "remove_adjacencies": ["Norwegian Sea"]
             },
-            "Greenland Sea": {
+            "Norwegian Sea": {
                 "remove_adjacencies": ["Edinburgh"]
             },
             "Panama": {

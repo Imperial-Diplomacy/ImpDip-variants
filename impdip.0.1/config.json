@@ -1,57 +1,28 @@
 {
   "name": "Imperial Diplomacy A1",
   "file": "imperial_diplomacy_a1.svg",
-  "svg config": {
-    "island_ring_layer": "layer18",
-    "island_fill_layer": "layer17",
-    "island_borders": "layer16",
-    "sea_borders": "layer14",
-    "season": "layer5",
-    "starting_units": "layer4",
-    "unit_output": "layer9",
-    "arrow_output": "layer10",
-    "sidebar": "g688253",
-    "coast_markers": "layer20",
-
-    "retreat_army": "g652-3",
-    "retreat_fleet": "layer15-1"
-  },
   "build_options": "cores",
   "victory_conditions": "vscc",
+  "expected_loops": 4,
   "overrides": {
-    "high provinces": {
-      "NAO": {
-        "num": 5,
-        "type": "SEA",
-        "adjacencies": ["SAO1", "SAO2", "SAO3", "SAO4", "SAO5", "Brattahlid", "Robertstorg", "Labrador Sea", "Strait of Belle Isle", "St. Marguerite Baie", "Massachusetts Bay", "Bermuda", "Saragasso Sea", "Cap Verde Basin", "Azores", "Iberian Current", "Rockall Rise", "Greenland Sea"]
-      },
-      "SAO": {
-        "num": 5,
-        "type": "SEA",
-        "adjacencies": ["NAO1", "NAO2", "NAO3", "NAO4", "NAO5", "Cap Verde Basin", "Serra Leoa Rise", "Mande", "Guinea Rise", "Angola Basin", "St. Helena", "Cape Basin", "Lazarev Sea", "Wendell Sea", "Argentine Basin", "Guanabara Bay", "Todos os Santos Bay", "Mauritsstad", "St. Marcos Bay", "Guiana Current", "Saragasso Sea"]
-      },
-      "NPO": {
-        "num": 5,
-        "type": "SEA",
-        "adjacencies": ["SPO1", "SPO2", "SPO3", "SPO4", "SPO5", "Chukchi Sea", "Cascadia Basin", "Windward Shore", "Hawai'i", "Guatemala Basin",  "Solomon Islands", "Dani", "Halmahera Sea", "Philippene Sea", "Kuroshio Current", "Edo", "Tsugaru Strait", "Kuril Sea", "Sea of Okhotsk", "Koryaks"]
-      },
-      "SPO": {
-        "num": 5,
-        "type": "SEA",
-        "adjacencies": ["NPO1", "NPO2", "NPO3", "NPO4", "NPO5", "Guatemala Basin", "Galapagos", "Peru Basin", "Roggeveen Basin", "Chiloe", "Drake Passage", "Davis Sea", "Nova Zeelandia", "Gunai", "Coral Sea", "Solomon Islands"]
-      },
-      "INO": {
-        "num": 5,
-        "type": "SEA",
-        "adjacencies": ["Laccadive Plateau", "Gulf of Mannar", "Ceylon", "Gulf of Ceylon", "Cocos Basin", "Sumatra", "Mentawai Strait", "Timor Sea", "Kimberley", "Great Australian Bight", "Davis Sea", "Crozet Basin", "Mauritius", "Mascarene Sea", "Somali Basin"]
-      }
-    },
     "provinces": {
       "Iqualuit": {
         "adjacencies": ["Nunavut"]
       },
       "Nunavut": {
         "adjacencies": ["Iqualuit"]
+      },
+      "Fort Detroit": {
+        "adjacencies": ["Mont Royal"]
+      },
+      "Mont Royal": {
+        "adjacencies": ["Fort Detroit"]
+      },
+      "Huron": {
+        "adjacencies": ["Memominis"]
+      },
+      "Memominis": {
+        "adjacencies": ["Huron"]
       },
       "Edinburgh": {
         "remove_adjacencies": ["Greenland Sea"]

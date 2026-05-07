@@ -1,8 +1,33 @@
 {
   "name": "Imperial Diplomacy B2.2",
   "file": "impdip.2.2.svg",
+  "expected_loops": 4,
   "overrides": {
     "provinces": {
+      "Azores": {
+        "adjacencies": ["Rockall Rise"]
+      },
+      "Rockall Rise": {
+        "adjacencies": ["Azores"]
+      },
+      "Iqaluit": {
+        "adjacencies": ["Nunavut"]
+      },
+      "Nunavut": {
+        "adjacencies": ["Iqaluit"]
+      },
+      "Naskapi": {
+        "adjacencies": ["St. Anthony"]
+      },
+      "St. Anthony": {
+        "adjacencies": ["Naskapi"]
+      },
+      "Bahia Grande": {
+          "remove_adjacencies": ["Mar de Hoces"]
+      },
+      "Mar de Hoces": {
+          "remove_adjacencies": ["Bahia Grande"]
+      },
       "Panama": {
         "coasts": {
           "nc": ["Bay of Panama", "Honduras nc", "Cartagena"],
