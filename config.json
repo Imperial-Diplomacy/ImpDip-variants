@@ -19,7 +19,16 @@
 
     "default_sea_color": "d4dae1",
 
-	"color_options": ["standard", "dark", "pink", "blue", "pastel"],
+	  "color_options": ["standard", "dark", "pink", "blue", "pastel", "orange"],
+    "color_credits": {
+      "standard": "Flare",
+      "dark": "Flare",
+      "pink": "Elle",
+      "blue": "limelier",
+      "pastel": "lilith_is_dead",
+      "orange": "lolstats.",
+      "custom": "your wonderful GM Team"
+    },
     "color replacements": {
       "c6b7ab": { "dark": "B7AB80", "blue": "FFF3F3" },
       "b2bdd1": { "dark": "325B68", "blue": "D2BDAE", "pastel": "76A3D5" },
