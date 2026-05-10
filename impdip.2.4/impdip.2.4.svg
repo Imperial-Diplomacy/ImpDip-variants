@@ -5,7 +5,7 @@
    version="1.0"
    id="svg4"
    sodipodi:docname="impdip.2.4.svg"
-   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
    inkscape:export-filename="map.png"
    inkscape:export-xdpi="200"
    inkscape:export-ydpi="200"
@@ -25,8 +25,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1.4774343"
-     inkscape:cx="1793.65"
-     inkscape:cy="200.0089"
+     inkscape:cx="1740.1789"
+     inkscape:cy="200.00889"
      inkscape:window-width="2496"
      inkscape:window-height="1630"
      inkscape:window-x="-11"
@@ -119926,7 +119926,7 @@
        id="g183820-5-9"
        transform="translate(-171.51149,-579.04314)"
        style="display:inline;stroke-width:0.8;stroke-dasharray:none"
-       inkscape:label="Capital Marker"><circle
+       inkscape:label="Capital"><circle
          style="display:inline;fill:#c6b7ab;fill-opacity:1;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
          id="path108382-32-6-4"
          cx="1133.9688"
