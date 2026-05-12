@@ -1,12 +1,11 @@
 import random
 from DiploGM.models.turn import PhaseName
 from DiploGM.models.province import ProvinceType
-from DiploGM.models.unit import UnitType
 if (board.data.get("conway") == "enabled"
     and board.turn.phase in (PhaseName.SPRING_MOVES, PhaseName.FALL_MOVES)):
     old_units = {}
     for u in board.units:
-        old_units[u.province.name] = (u.player, u.unit_type)
+        old_units[u.province.name] = (u.player, u.unit_type.code)
     for p in board.provinces:
         if p.is_impassable:
             continue
@@ -23,14 +22,14 @@ if (board.data.get("conway") == "enabled"
             else:
                 new_owner = None
             if p.type == ProvinceType.SEA:
-                new_type = UnitType.FLEET
+                new_type = board.unit_types["F"]
             elif p.is_landlocked():
-                new_type = UnitType.ARMY
-            elif unit_types.count(UnitType.ARMY) > 1:
-                new_type = UnitType.ARMY
+                new_type = board.unit_types["A"]
+            elif unit_types.count("A") > 1:
+                new_type = board.unit_types["A"]
             else:
-                new_type = UnitType.FLEET
+                new_type = board.unit_types["F"]
             coast = None
-            if new_type == UnitType.FLEET and p.adjacencies.coasts:
+            if new_type == board.unit_types["F"] and p.adjacencies.coasts:
                 coast = random.choice(list(p.adjacencies.coasts))
             board.create_unit(new_type, new_owner, p, coast, None)
