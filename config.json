@@ -67,6 +67,12 @@
   },
   "overrides": {
     "provinces": {
+      "Bahia Grande": {
+        "remove_adjacencies": ["Mar de Hoces"]
+      },
+      "Mar de Hoces": {
+        "remove_adjacencies": ["Bahia Grande"]
+      },
       "Kathiri": {
         "remove_adjacent_coasts": ["Sanaa"]
       },
