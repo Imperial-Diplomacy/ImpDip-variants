@@ -1,0 +1,106 @@
+{
+  "name": "Imperial Diplomacy B2.5",
+  "file": "impdip.2.5.svg",
+  "expected_loops": 4,
+  "overrides": {
+    "provinces": {
+      "Aden": {
+        "adjacencies": ["Aussa"]
+      },
+      "Aussa": {
+        "adjacencies": ["Aden"]
+      },
+      "Azores": {
+        "adjacencies": ["Rockall Rise"]
+      },
+      "Rockall Rise": {
+        "adjacencies": ["Azores"]
+      },
+      "Iqaluit": {
+        "adjacencies": ["Nunavut"]
+      },
+      "Nunavut": {
+        "adjacencies": ["Iqaluit"]
+      },
+      "Naskapi": {
+        "adjacencies": ["St. Anthony"]
+      },
+      "St. Anthony": {
+        "adjacencies": ["Naskapi"]
+      },
+      "Panama": {
+        "coasts": {
+          "nc": ["Bay of Panama", "Honduras nc", "Cartagena"],
+          "sc": ["Colon Ridge", "Honduras sc", "Bogota"]
+        }
+      },
+      "Honduras": {
+        "coasts": {
+          "nc": ["Gulf of Honduras", "Bay of Panama", "Belize", "Panama nc"],
+          "sc": ["Guatemala Basin", "Colon Ridge", "Yucatan sc", "Panama sc"]
+        }
+      },
+      "Yucatan": {
+        "coasts": {
+          "nc": [
+            "Gulf of Mexico",
+            "Yucatan Channel",
+            "Mexico City ec",
+            "Belize"
+          ],
+          "sc": ["Guatemala Basin", "Mexico City wc", "Honduras sc"]
+        }
+      },
+      "Mexico City": {
+        "coasts": {
+          "ec": ["Gulf of Mexico", "Saltillo", "Yucatan nc"],
+          "wc": [
+            "Guatemala Basin",
+            "Berlanga Ridge",
+            "Sea of Cortez",
+            "Zacatecas",
+            "Yucatan sc"
+          ]
+        }
+      },
+      "Nakhon Si": {
+        "coasts": {
+          "ec": ["Gulf of Siam", "Natuna Sea", "Kra", "Malay"],
+          "wc": ["Malacca Strait", "Tavoy", "Malay"]
+        }
+      },
+      "Pyeongyang": {
+        "coasts": {
+          "ec": ["Oriental Sea", "Oki Sea", "Hamgyong", "Fusan"],
+          "wc": ["Beizhili Sea", "Liaodong", "Hanyang"]
+        }
+      },
+      "Kereks": {
+        "coasts": {
+          "ec": ["Karaginskiy Gulf", "Chukchis", "Aliutors"],
+          "wc": ["Sea of Okhotsk", "Itelmen", "Evenki"]
+        }
+      },
+      "Rome": {
+        "coasts": {
+          "ec": ["Adriatic Sea", "Venice", "Naples"],
+          "wc": ["Ligurian Sea", "Tyrrhenian Sea", "Florence", "Naples"]
+        }
+      },
+      "Chukchi Sea": {
+        "unit_loc": [[26.0, 268.0]],
+        "retreat_unit_loc": [[72.908, 186.392]]
+      },
+      "Gulf of Anadyr": {
+        "unit_loc": [[29.0, 421.0]],
+        "retreat_unit_loc": [[14.5, 391.0]]
+      }
+    }
+  },
+  "players": {
+    "Mughal": {
+      "vscc": 36,
+      "iscc": 5
+    }
+  }
+}
