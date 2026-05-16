@@ -31,14 +31,14 @@ if (board.data.get("conway") == "enabled" and board.turn.phase in (PhaseName.SPR
     if lonely_units:
         message += "\n__Lonely units removed:__\n"
         for player in sorted(lonely_units.keys(), key=lambda p: p if p != "Neutral" else ""):
-            message += f"- **{player}**: {', '.join([u.name for u in lonely_units[player]])}\n"
+            message += f"- **{player}**: {', '.join(sorted([u.name for u in lonely_units[player]]))}\n"
     if crowded_units:
         message += "\n__Crowded units removed:__\n"
         for player in sorted(crowded_units.keys(), key=lambda p: p if p != "Neutral" else ""):
-            message += f"- **{player}**: {', '.join([u.name for u in crowded_units[player]])}\n"
+            message += f"- **{player}**: {', '.join(sorted([u.name for u in crowded_units[player]]))}\n"
     if spawned_units:
         message += "\n__New units spawned:__\n"
         for player in sorted(spawned_units.keys(), key=lambda p: p if p != "Neutral" else ""):
-            message += f"- **{player}**: {', '.join([u.name for u in spawned_units[player]])}\n"
+            message += f"- **{player}**: {', '.join(sorted([u.name for u in spawned_units[player]]))}\n"
     if not lonely_units and not crowded_units and not spawned_units:
         message += "No changes"
