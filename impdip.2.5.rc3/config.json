@@ -1,0 +1,470 @@
+{
+  "svg config": {
+    "scoreboard": {
+      "sort": true,
+      "indexes": {
+          "1": "__name__",
+          "5": "__score__",
+          "6": "__iscc__",
+          "7": "__vscc__"
+      }
+    },
+
+    "detect_starting_units": true,
+    "unit_type_labeled": false,
+
+    "unit_labels": true,
+    "province_labels": true,
+    "center_labels": true,
+
+    "default_sea_color": "d4dae1",
+
+	  "color_options": ["standard", "dark", "pink", "blue", "pastel", "orange"],
+    "color_credits": {
+      "standard": "Flare",
+      "dark": "Flare",
+      "pink": "Elle",
+      "blue": "limelier",
+      "pastel": "lilith_is_dead",
+      "orange": "lolstats.",
+      "custom": "your wonderful GM Team",
+	  "lilac": "lilytale"
+    },
+    "color replacements": {
+      "c6b7ab": { "dark": "B7AB80", "blue": "FFF3F3" },
+      "b2bdd1": { "dark": "325B68", "blue": "D2BDAE", "pastel": "76A3D5", "lilac": "8C7F93" },
+      "b99a82": { "dark": "8a836b", "blue": "EFDFDF" },
+      "333333": { "dark": "0A3542" },
+      "d4dae1": { "dark": "396B70", "blue": "E4D1C5", "pastel": "638Ec6", "lilac": "B6AABD" }
+    },
+
+    "border_margin_hint": 1,
+
+    "map_width": 4375,
+    "unit_radius": 10,
+    "order_stroke_width": 2,
+    "neutral": {
+      "standard": "c6b7ab",
+      "dark": "B7AB80",
+      "pink": "c6b7ab",
+      "blue": "FFF3F3",
+	  "lilac": "8C7F93"
+    },
+    "impassable": {
+      "standard": "333333",
+      "dark": "0A3542",
+      "pink": "333333",
+      "blue": "333333"
+    },
+    "neutral_sc": "ffffff",
+    "loc_x_offset": 7.7655,
+    "loc_y_offset": 7.033,
+    "delete_layer": ["army", "retreat_army", "fleet", "retreat_fleet"]
+  },
+  "year": 1642,
+  "build_options": "cores",
+  "victory_conditions": "vscc",
+  "abbreviations": {
+    "nec": "North Equatorial Current"
+  },
+  "overrides": {
+    "provinces": {
+      "Bahia Grande": {
+        "remove_adjacencies": ["Mar de Hoces"]
+      },
+      "Mar de Hoces": {
+        "remove_adjacencies": ["Bahia Grande"]
+      },
+      "Kathiri": {
+        "remove_adjacent_coasts": ["Sanaa"]
+      },
+      "Sanaa": {
+        "remove_adjacent_coasts": ["Kathiri"]
+      },
+      "NPO1": {
+        "unit_loc": [[3982.726, 874.217]],
+        "retreat_unit_loc": [[3994.726, 886.217]]
+      },
+      "NPO2": {
+        "unit_loc": [[4059.726, 874.217]],
+        "retreat_unit_loc": [[4071.726, 886.217]]
+      },
+      "NPO3": {
+        "unit_loc": [[4136.726, 874.217]],
+        "retreat_unit_loc": [[4148.726, 886.217]]
+      },
+      "NPO4": {
+        "unit_loc": [[4021.226, 942.459]],
+        "retreat_unit_loc": [[4033.226, 954.459]]
+      },
+      "NPO5": {
+        "unit_loc": [[4098.226, 942.401]],
+        "retreat_unit_loc": [[4110.226, 954.401]]
+      },
+      "SPO1": {
+        "unit_loc": [[4061.26, 1509.495]],
+        "retreat_unit_loc": [[4073.26, 1521.495]]
+      },
+      "SPO2": {
+        "unit_loc": [[4138.259, 1509.495]],
+        "retreat_unit_loc": [[4150.259, 1521.495]]
+      },
+      "SPO3": {
+        "unit_loc": [[4215.26, 1510.0]],
+        "retreat_unit_loc": [[4227.26, 1522.0]]
+      }
+    }
+  },
+  "players": {
+    "Abyssinia": {
+      "color": {
+        "standard": "a88080",
+        "dark": "9D6767",
+        "pink": "FFC0CB",
+        "blue": "4AB5A9",
+        "pastel": "A88F80",
+		"orange": "BB897C",
+		"lilac": "E8B089"
+      },
+      "vscc": 32,
+      "iscc": 4,
+      "capital": "Gondar"
+    },
+    "Ajuuraan": {
+      "color": {
+        "standard": "587ba7",
+        "dark": "4A688D",
+        "pink": "FF6AB9",
+        "blue": "924EEF",
+        "pastel": "7EA0C9",
+		"orange": "E14300",
+		"lilac": "7EB7FF"
+      },
+      "vscc": 36,
+      "iscc": 5,
+      "capital": "Mareeg"
+    },
+    "Athapasca": {
+      "color": {
+        "standard": "e95a94",
+        "dark": "BB4C79",
+        "pink": "FF69B4",
+        "blue": "63E8DD",
+        "pastel": "FF99C2",
+		"orange": "FA7D00",
+		"lilac": "FF8FBD"
+      },
+      "vscc": 32,
+      "iscc": 4,
+      "capital": "Chipewyan"
+    },
+    "Austria": {
+      "color": {
+        "standard": "a17555",
+        "dark": "82644D",
+        "pink": "FF1493",
+        "blue": "8768E2",
+        "pastel": "C79775",
+		"orange": "D17417",
+		"lilac": "DB9866"
+      },
+      "vscc": 32,
+      "iscc": 4,
+      "capital": "Vienna"
+    },
+    "Aymara": {
+      "color": {
+        "standard": "9a2f56",
+        "dark": "AD295D",
+        "pink": "DB7093",
+        "blue": "A0DCD9",
+        "pastel": "DD4479",
+		"orange": "A94420",
+		"lilac": "CF628A"
+      },
+      "vscc": 32,
+      "iscc": 4,
+      "capital": "Chuyma"
+    },
+    "Ayutthaya": {
+      "color": {
+        "standard": "9d84ae",
+        "dark": "B875CE",
+        "pink": "FF007F",
+        "blue": "5782EC",
+        "pastel": "B697CD",
+		"orange": "FF7E4C",
+		"lilac": "CEA9E8"
+      },
+      "vscc": 32,
+      "iscc": 4,
+      "capital": "Ayutthaya"
+    },
+    "England": {
+      "color": {
+        "standard": "f94455",
+        "dark": "E33544",
+        "pink": "E75480",
+        "blue": "467A70",
+        "pastel": "FF654E",
+		"orange": "E1582A",
+		"lilac": "FF7B87"
+      },
+      "vscc": 56,
+      "iscc": 14,
+      "capital": "London"
+    },
+    "France": {
+      "color": {
+        "standard": "66a2e3",
+        "dark": "24A57B",
+        "pink": "FF6FFF",
+        "blue": "9F79CF",
+        "pastel": "A4D0FF",
+		"orange": "E5A76E",
+		"lilac": "9ECDFF"
+      },
+      "vscc": 56,
+      "iscc": 14,
+      "capital": "Paris"
+    },
+    "Guarani": {
+      "color": {
+        "standard": "078690",
+        "dark": "078690",
+        "pink": "FFB3C6",
+        "blue": "078690",
+        "pastel": "4FBFC7",
+		"orange": "EB3C19",
+		"lilac": "65D3BD"
+      },
+      "vscc": 32,
+      "iscc": 4,
+      "capital": "Chiripa"
+    },
+    "Inuit": {
+      "color": {
+        "standard": "afc5d8",
+        "dark": "95ADC2",
+        "pink": "F22952",
+        "blue": "2C837F",
+        "pastel": "D7EDFF",
+		"orange": "A78649",
+		"lilac": "C8E5FF"
+      },
+      "vscc": 42,
+      "iscc": 7,
+      "capital": "Iqaluit"
+    },
+    "Kongo": {
+      "color": {
+        "standard": "924cb3",
+        "dark": "944FA5",
+        "pink": "FF91A4",
+        "blue": "C7A9E7",
+        "pastel": "DE9CFF",
+		"orange": "FA7100",
+		"lilac": "D782FF"
+      },
+      "vscc": 32,
+      "iscc": 4,
+      "capital": "Mbanza"
+    },
+    "Mapuche": {
+      "color": {
+        "standard": "81889d",
+        "dark": "696E7F",
+        "pink": "FF85A1",
+        "blue": "5A72C2",
+        "pastel": "A4A6AB",
+		"orange": "B7694D",
+		"lilac": "B3C2F0"
+      },
+      "vscc": 32,
+      "iscc": 4,
+      "capital": "Tucapel"
+    },
+    "Ming": {
+      "color": {
+        "standard": "cadd7e",
+        "dark": "B8DC5C",
+        "pink": "D98A96",
+        "blue": "74D2EF",
+        "pastel": "DBEC96",
+		"orange": "FFC6A3",
+		"lilac": "F2FFBF"
+      },
+      "vscc": 36,
+      "iscc": 5,
+      "capital": "Peking"
+    },
+    "Mughal": {
+      "color": {
+        "standard": "ab9f26",
+        "dark": "999941",
+        "pink": "FDD7E4",
+        "blue": "8779AB",
+        "pastel": "BC5A84",
+		"orange": "9D6B32",
+		"lilac": "E3D86F"
+      },
+      "vscc": 40,
+      "iscc": 6,
+      "capital": "Delhi"
+    },
+    "Netherlands": {
+      "color": {
+        "standard": "fc9c23",
+        "dark": "DB7745",
+        "pink": "C44263",
+        "blue": "58AEC4",
+        "pastel": "F1A445",
+		"orange": "FC9C23",
+		"lilac": "FFBF70"
+      },
+      "vscc": 56,
+      "iscc": 14,
+      "capital": "Amsterdam"
+    },
+    "Ottoman": {
+      "color": {
+        "standard": "a03838",
+        "dark": "AB2136",
+        "pink": "F4A7B9",
+        "blue": "649AE8",
+        "pastel": "DC6464",
+		"orange": "A4451A",
+		"lilac": "CE5E5E"
+      },
+      "vscc": 48,
+      "iscc": 10,
+      "capital": "Constantinople"
+    },
+    "Poland-Lithuania": {
+      "color": {
+        "standard": "e390b3",
+        "dark": "E57BA8",
+        "pink": "F9A7B0",
+        "blue": "43859F",
+        "pastel": "FFB6CB",
+		"orange": "E08A6E",
+		"lilac": "F4ABCA"
+      },
+      "vscc": 42,
+      "iscc": 7,
+      "capital": "Warsaw"
+    },
+    "Portugal": {
+      "color": {
+        "standard": "3c9553",
+        "dark": "23763F",
+        "pink": "F5B7C6",
+        "blue": "A9B6E3",
+        "pastel": "68DE86",
+		"orange": "E6AE4D",
+		"lilac": "92E8A8"
+      },
+      "vscc": 64,
+      "iscc": 16,
+      "capital": "Lisbon"
+    },
+    "Qing": {
+      "color": {
+        "standard": "f36678",
+        "dark": "E04A5D",
+        "pink": "F5A9BC",
+        "blue": "15729C",
+        "pastel": "FFA2A9",
+		"orange": "9F4232",
+		"lilac": "FF9C87"
+      },
+      "vscc": 32,
+      "iscc": 4,
+      "capital": "Shengjing"
+    },
+    "Russia": {
+      "color": {
+        "standard": "547352",
+        "dark": "547352",
+        "pink": "E672A3",
+        "blue": "4BAADB",
+        "pastel": "9BBB99",
+		"orange": "A75B28",
+		"lilac": "8AB288"
+      },
+      "vscc": 44,
+      "iscc": 8,
+      "capital": "Moscow"
+    },
+    "Safavid": {
+      "color": {
+        "standard": "5a887f",
+        "dark": "407167",
+        "pink": "FFAEB9",
+        "blue": "5E6C9B",
+        "pastel": "A4C3BD",
+		"orange": "F38E66",
+		"lilac": "A3D7CC"
+      },
+      "vscc": 36,
+      "iscc": 5,
+      "capital": "Isfahan"
+    },
+    "Spain": {
+      "color": {
+        "standard": "f0ce48",
+        "dark": "DBB045",
+        "pink": "65000B",
+        "blue": "3585B0",
+        "pastel": "FFE279",
+		"orange": "EC874D",
+		"lilac": "FFE581"
+      },
+      "vscc": 64,
+      "iscc": 16,
+      "capital": "Madrid"
+    },
+    "Sweden": {
+      "color": {
+        "standard": "4e51ba",
+        "dark": "534884",
+        "pink": "F497BF",
+        "blue": "367BBB",
+        "pastel": "8083E6",
+		"orange": "D89518",
+		"lilac": "7F82E8"
+      },
+      "vscc": 32,
+      "iscc": 4,
+      "capital": "Stockholm"
+    },
+    "Tokugawa": {
+      "color": {
+        "standard": "7cdbc3",
+        "dark": "4AB79B",
+        "pink": "FFAACC",
+        "blue": "687F9F",
+        "pastel": "A4F8E2",
+		"orange": "E29C63",
+		"lilac": "B8FFED"
+      },
+      "vscc": 32,
+      "iscc": 4,
+      "capital": "Kyoto"
+    },
+    "Ute-Shoshone": {
+      "color": {
+        "standard": "ca7a59",
+        "dark": "B87052",
+        "pink": "EDBFC3",
+        "blue": "658DBE",
+        "pastel": "E1A891",
+		"orange": "CA7A59",
+		"lilac": "FFB89A"
+      },
+      "vscc": 36,
+      "iscc": 5,
+      "capital": "Gosiute"
+    }
+  }
+}
