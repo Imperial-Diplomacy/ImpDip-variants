@@ -1,6 +1,6 @@
 {
   "name": "Imperial Diplomacy B2.5",
-  "file": "impdip.2.5.svg",
+  "file": "impdip.2.5.rc3.svg",
   "expected_loops": 4,
   "overrides": {
     "provinces": {
