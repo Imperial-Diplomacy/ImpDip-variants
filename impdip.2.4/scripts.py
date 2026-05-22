@@ -15,10 +15,10 @@ if (board.data.get("conway") == "enabled" and board.turn.phase in (PhaseName.SPR
         neighbours = {u for u in p.adjacencies.get_all() if u.name in old_units}
         if p.unit is not None and len(neighbours) < 2:
             lonely_units.setdefault(p.unit.player.get_name() if p.unit.player is not None else "Neutral", set()).add(p.name)
-            board.delete_unit(p)
+            p.unit.unit_type = board.unit_types["X" + p.unit.unit_type.code]
         elif p.unit is not None and len(neighbours) > 3:
             crowded_units.setdefault(p.unit.player.get_name() if p.unit.player is not None else "Neutral", set()).add(p.name)
-            board.delete_unit(p)
+            p.unit.unit_type = board.unit_types["X" + p.unit.unit_type.code]
         elif p.unit is None and len(neighbours) == 3:
             owners = [old_units[n.name] for n in neighbours]
             if len(set(owners)) == 1:
