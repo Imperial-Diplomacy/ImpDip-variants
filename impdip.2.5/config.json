@@ -30,13 +30,13 @@
       },
       "Panama": {
         "coasts": {
-          "nc": ["Bay of Panama", "Honduras nc", "Cartagena"],
+          "nc": ["Gulf of Darien", "Honduras nc", "Cartagena"],
           "sc": ["Colon Ridge", "Honduras sc", "Bogota"]
         }
       },
       "Honduras": {
         "coasts": {
-          "nc": ["Gulf of Honduras", "Bay of Panama", "Belize", "Panama nc"],
+          "nc": ["Gulf of Honduras", "Gulf of Darien", "Belize", "Panama nc"],
           "sc": ["Guatemala Basin", "Colon Ridge", "Yucatan sc", "Panama sc"]
         }
       },
