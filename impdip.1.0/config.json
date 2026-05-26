@@ -183,10 +183,18 @@
             "iscc": 5
         },
         "Kongo": {
-            "color": "9f52c4"
+            "color": {
+                "standard": "9F52C4"
+            }
         },
         "Mali": {
-            "color": "7a9025",
+            "color": {
+                "standard": "7a9025",
+                "pink": "FFB3C6",
+                "blue": "5F9B99",
+                "orange": "EB3C19",
+                "lilac": "65D3BD"
+            },
             "vscc": 32,
             "iscc": 4
         },
@@ -194,7 +202,15 @@
             "disabled": "True"
         },
         "Mapuche-Tehuelche": {
-            "color": "81889d",
+            "color": {
+                "standard": "81889d",
+                "dark": "696E7F",
+                "pink": "FF85A1",
+                "blue": "5A72C2",
+                "pastel": "A4A6AB",
+                "orange": "B7694D",
+                "lilac": "B3C2F0"
+            },
             "vscc": 32,
             "iscc": 4
         },
@@ -207,7 +223,9 @@
             "iscc": 5
         },
         "Russia": {
-            "color": "556854",
+            "color": {
+                "standard": "556854"
+            },
             "vscc": 48,
             "iscc": 10
         }
