@@ -42,7 +42,6 @@
 	"victory_conditions": "vscc",
     "build_options": "anywhere",
     "first_season": "winter",
-    "flags": ["weak channel checking"],
 
     "overrides": {
         "provinces": {
