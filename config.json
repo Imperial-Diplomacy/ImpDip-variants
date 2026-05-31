@@ -19,7 +19,7 @@
 
     "default_sea_color": "d4dae1",
 
-	  "color_options": ["standard", "dark", "pink", "blue", "pastel", "orange"],
+	  "color_options": ["standard", "dark", "pink", "blue", "pastel", "orange", "lilac"],
     "color_credits": {
       "standard": "Flare",
       "dark": "Flare",
