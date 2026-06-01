@@ -98,6 +98,11 @@
     }
   },
   "players": {
+    "England": {
+      "color": {
+        "standard": "df3232"
+      }
+    },
     "Mughal": {
       "vscc": 36,
       "iscc": 5
