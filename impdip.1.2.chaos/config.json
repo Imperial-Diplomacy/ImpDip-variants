@@ -15,7 +15,6 @@
 	"victory_conditions": "vscc",
     "build_options": "anywhere",
     "first_season": "winter",
-    "vassals": "enabled",
     "expected_loops": 5,
 
     "overrides": {
