@@ -26,13 +26,13 @@
                 "coasts": {
                    "nc": [
                         "Bay of Panama",
-						"Honduras nc",
-						"Cartagena"
+                        "Honduras nc",
+                        "Cartagena"
                    ],
                    "sc": [
                         "Colon Ridge",
-						"Honduras sc",
-						"Bogota"
+                        "Honduras sc",
+                        "Bogota"
                    ]
                 }
             },
@@ -41,14 +41,14 @@
                     "nc": [
                         "Gulf of Honduras",
                         "Bay of Panama",
-						"Belize",
-						"Panama nc"
+                        "Belize",
+                        "Panama nc"
                     ],
                     "sc": [
                         "Guatemala Basin",
                         "Colon Ridge",
-						"Yucatan sc",
-						"Panama sc"
+                        "Yucatan sc",
+                        "Panama sc"
                     ]
                 }
             },
@@ -57,13 +57,13 @@
                     "nc": [
                         "Gulf of Mexico",
                         "Yucatan Channel",
-						"Mexico City ec",
-						"Belize"
+                        "Mexico City ec",
+                        "Belize"
                     ],
                     "sc": [
                         "Guatemala Basin",
-						"Mexico City wc",
-						"Honduras sc"
+                        "Mexico City wc",
+                        "Honduras sc"
                     ]
                 }
             },
@@ -71,15 +71,15 @@
                 "coasts": {
                     "ec": [
                         "Gulf of Mexico",
-						"Saltillo",
-						"Yucatan nc"
+                        "Saltillo",
+                        "Yucatan nc"
                     ],
                     "wc": [
                         "Guatemala Basin",
                         "Berlanga Ridge",
                         "Sea of Cortez",
-						"Zacatecas",
-						"Yucatan sc"
+                        "Zacatecas",
+                        "Yucatan sc"
                     ]
                 }
             },
@@ -88,13 +88,13 @@
                     "ec": [
                         "Gulf of Siam",
                         "Natuna Sea",
-						"Kra",
-						"Malay"
+                        "Kra",
+                        "Malay"
                     ],
                     "wc": [
                         "Malacca Strait",
-						"Tavoy",
-						"Malay"
+                        "Tavoy",
+                        "Malay"
                     ]
                 }
             },
@@ -103,14 +103,14 @@
                     "ec": [
                         "Oriental Sea",
                         "Tsushima",
-						"Hamgyong",
-						"Fusan"
+                        "Hamgyong",
+                        "Fusan"
                     ],
                     "wc": [
                         "Beizhili Sea",
                         "Yellow Sea",
-						"Shengjing",
-						"Hanyang"
+                        "Shengjing",
+                        "Hanyang"
                     ]
                 }
             },
@@ -118,13 +118,13 @@
                 "coasts": {
                     "ec": [
                         "Chukchi Sea",
-						"Yukaghir",
-						"Aliutors"
+                        "Yukaghir",
+                        "Aliutors"
                     ],
                     "wc": [
                         "Sea of Okhotsk",
-						"Evens",
-						"Koryaks"
+                        "Evens",
+                        "Koryaks"
                     ]
                 }
             },
@@ -132,14 +132,14 @@
                 "coasts": {
                     "ec": [
                         "Adriatic Sea",
-						"Venice",
-						"Naples"
+                        "Venice",
+                        "Naples"
                     ],
                     "wc": [
                         "Ligurian Sea",
                         "Tyrrhenian Sea",
-						"Florence",
-						"Naples"
+                        "Florence",
+                        "Naples"
                     ]
                 }
             },

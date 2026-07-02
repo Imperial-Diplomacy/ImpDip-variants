@@ -1,5 +1,8 @@
+# pylint: disable=undefined-variable
+# pyright: reportUndefinedVariable=false
 from DiploGM.models.province import ProvinceType
 from DiploGM.models.turn import PhaseName
+
 if (board.data.get("conway") == "enabled" and board.turn.phase in (PhaseName.SPRING_MOVES, PhaseName.FALL_MOVES)):
     lonely_units = {}
     crowded_units = {}
@@ -14,10 +17,12 @@ if (board.data.get("conway") == "enabled" and board.turn.phase in (PhaseName.SPR
             continue
         neighbours = {u for u in p.adjacencies.get_all() if u.name in old_units}
         if p.unit is not None and len(neighbours) < 2:
-            lonely_units.setdefault(p.unit.player.get_name() if p.unit.player is not None else "Neutral", set()).add(p.name)
+            lonely_units.setdefault(p.unit.player.get_name() if p.unit.player is not None
+                                    else "Neutral", set()).add(p.name)
             p.unit.unit_type = board.unit_types["X" + p.unit.unit_type.code]
         elif p.unit is not None and len(neighbours) > 3:
-            crowded_units.setdefault(p.unit.player.get_name() if p.unit.player is not None else "Neutral", set()).add(p.name)
+            crowded_units.setdefault(p.unit.player.get_name() if p.unit.player is not None
+                                     else "Neutral", set()).add(p.name)
             p.unit.unit_type = board.unit_types["X" + p.unit.unit_type.code]
         elif p.unit is None and len(neighbours) == 3:
             owners = [old_units[n.name] for n in neighbours]

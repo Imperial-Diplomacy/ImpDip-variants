@@ -19,13 +19,13 @@
 
         "default_sea_color": "d4dae1",
 
-		"color replacements": {
-			"c6b7ab": {"dark": "B7AB80"},
-			"b2bdd1": {"dark": "325B68"},
-			"b99a82": {"dark": "8a836b"},
-			"333333": {"dark": "0A3542"},
-			"d4dae1": {"dark": "396B70"}
-		},
+        "color replacements": {
+            "c6b7ab": {"dark": "B7AB80"},
+            "b2bdd1": {"dark": "325B68"},
+            "b99a82": {"dark": "8a836b"},
+            "333333": {"dark": "0A3542"},
+            "d4dae1": {"dark": "396B70"}
+        },
 
         "border_margin_hint": 1,
         "year": 1641,
@@ -39,7 +39,7 @@
         "loc_y_offset": 7.033,
         "delete_layer": ["army", "retreat_army", "fleet", "retreat_fleet"]
     },
-	"victory_conditions": "vscc",
+    "victory_conditions": "vscc",
     "build_options": "anywhere",
     "first_season": "winter",
 
@@ -49,11 +49,11 @@
                 "coasts": {
                    "nc": [
                         "Bay of Panama",
-						"Cartagena"
+                        "Cartagena"
                    ],
                    "sc": [
                         "Colon Ridge",
-						"Bogota"
+                        "Bogota"
                    ]
                 }
             },
