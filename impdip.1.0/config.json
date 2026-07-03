@@ -185,7 +185,8 @@
         "Kongo": {
             "color": {
                 "standard": "9F52C4"
-            }
+            },
+            "capital": "Kinshasa"
         },
         "Mali": {
             "color": {
@@ -197,7 +198,8 @@
                 "lilac": "65D3BD"
             },
             "vscc": 32,
-            "iscc": 4
+            "iscc": 4,
+            "capital": "Kangaba"
         },
         "Mapuche": {
             "disabled": "True"
@@ -213,7 +215,11 @@
                 "lilac": "B3C2F0"
             },
             "vscc": 32,
-            "iscc": 4
+            "iscc": 4,
+            "capital": "Tehuelche"
+        },
+        "Ming": {
+            "capital": "Beijing"
         },
         "Mughal": {
             "vscc": 36,
@@ -229,6 +235,12 @@
             },
             "vscc": 48,
             "iscc": 10
+        },
+        "Safavid": {
+            "capital": "Tehran"
+        },
+        "Tokugawa": {
+            "capital": "Edo"
         }
     }
 }

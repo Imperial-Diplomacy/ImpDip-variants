@@ -195,7 +195,8 @@
     "Bornu": {
       "color": {"standard": "ffe680"},
       "vscc": 28,
-      "iscc": 4
+      "iscc": 4,
+      "capital": "Ngazargamu"
     },
     "England": {
       "vscc": 54,
@@ -207,20 +208,24 @@
     },
     "Inuit": {
       "vscc": 35,
-      "iscc": 5
+      "iscc": 5,
+      "capital": "Iqualuit"
     },
     "Kongo": {
       "color": {"standard": "9f52c4"},
       "vscc": 35,
-      "iscc": 5
+      "iscc": 5,
+      "capital": "Kinshasa"
     },
     "Mapuche-Tehuelche": {
       "color": {"standard": "81889d"},
       "vscc": 28,
-      "iscc": 4
+      "iscc": 4,
+      "capital": "Tehuelche"
     },
     "Ming": {
-      "vscc": 35
+      "vscc": 35,
+      "capital": "Beijing"
     },
     "Mughal": {
       "vscc": 35,
@@ -240,12 +245,14 @@
       "iscc": 10
     },
     "Safavid": {
-      "vscc": 35
+      "vscc": 35,
+      "capital": "Tehran"
     },
     "Sioux": {
       "color": {"standard": "84b172"},
       "vscc": 35,
-      "iscc": 5
+      "iscc": 5,
+      "capital": "Dakota"
     },
     "Sweden": {
       "vscc": 35,
@@ -253,7 +260,8 @@
     },
     "Tokugawa": {
       "vscc": 28,
-      "iscc": 4
+      "iscc": 4,
+      "capital": "Edo"
     },
     "Aymara": {
       "disabled": "True"
