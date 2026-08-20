@@ -86,6 +86,7 @@
           "ec": ["North Sea", "Humber", "Edinburgh"],
           "wc": ["Iceland Basin", "Irish Sea", "Edinburgh", "Liverpool"]
         }
+      },
       "Rome": {
         "coasts": {
           "ec": ["Adriatic Sea", "Venice", "Naples"],
