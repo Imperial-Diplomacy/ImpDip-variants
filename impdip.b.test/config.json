@@ -1,6 +1,6 @@
 {
   "name": "impdip.b.test",
-  "file": "bullet_test.svg",
+  "file": "b_test.svg",
   "expected_loops": 4,
   "overrides": {
     "provinces": {
