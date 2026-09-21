@@ -1,6 +1,6 @@
 {
   "name": "impdip.b.test",
-  "file": "b_test.svg",
+  "file": "impdip.b.test",
   "expected_loops": 4,
   "overrides": {
     "provinces": {
