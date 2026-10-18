@@ -93,6 +93,8 @@
     "border_margin_hint": 1,
 
     "map_width": 4375,
+    "pacific_center_line": 0.32316466008,
+    "pacific_map_edge": 0.82375305512,
     "unit_radius": 10,
     "order_stroke_width": 2,
     "neutral": {
